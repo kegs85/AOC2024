@@ -5,7 +5,7 @@ let list2 = [];
 let output = 0;
 
 async function processLineByLine() {
-  const fileStream = fs.createReadStream('input.txt');
+  const fileStream = fs.createReadStream('p1.txt');
 
   const rl = readline.createInterface({
     input: fileStream,
